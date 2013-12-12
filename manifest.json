@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "One-click Top Sites",
+  "description": "This extension opens a list of your Top Visited Sites.",
+  "version": "1.0",
+
+  "permissions": [
+    "http://www.fvicon.com/",
+    "topSites"
+  ],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  }
+}
